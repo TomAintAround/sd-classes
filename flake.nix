@@ -17,8 +17,8 @@
       in {
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
+            jdk25
             python314
-            jdk21
           ];
         };
       }
