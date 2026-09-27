@@ -1,0 +1,2 @@
+PYTHON_GIL=1 python3.13t -c "import sys; print('GIL enabled:', sys._is_gil_enabled())"
+PYTHON_GIL=0 python3.13t -c "import sys; print('GIL enabled:', sys._is_gil_enabled())"
